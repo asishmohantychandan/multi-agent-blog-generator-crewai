@@ -317,9 +317,9 @@ If you found this project useful:
 
 # 🔗 Connect With Me
 
-* LinkedIn
-* GitHub
-* Medium
+* LinkedIn: https://www.linkedin.com/in/asish-mohanty44
+* GitHub: https://github.com/asishmohantychandan
+* Medium: https://medium.com/@asishmohantychandan
 
 ---
 
