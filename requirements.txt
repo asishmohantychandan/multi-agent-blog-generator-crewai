@@ -1,0 +1,36 @@
+# ============================================================
+# CrewAI Day 1 - Requirements
+# Multi-Agent System with OpenAI + Groq Support
+# ============================================================
+# Python version required: 3.11 (recommended)
+#
+# HOW TO INSTALL:
+#   1. Activate your virtual environment first:
+#      Windows:    venv\Scripts\activate
+#      Mac/Linux:  source venv/bin/activate
+#
+#   2. Then run:
+#      pip install -r requirements.txt
+# ============================================================
+
+# ── Core CrewAI Framework (includes crewai-tools) ────────────
+crewai[tools]==1.9.3
+
+# ── LLM Providers ────────────────────────────────────────────
+# Groq — free open-source models (fallback)
+langchain-groq==0.2.4
+
+# OpenAI — GPT-4o-mini (primary, better quality)
+# Required even if you only use Groq (LiteLLM uses it internally)
+openai>=1.0.0
+
+# ── LiteLLM (Required by CrewAI for LLM routing) ────────────
+litellm==1.57.4
+
+# ── Environment Variables ────────────────────────────────────
+# Loads API keys from your .env file
+python-dotenv==1.1.1
+
+
+streamlit>=1.32.0
+
